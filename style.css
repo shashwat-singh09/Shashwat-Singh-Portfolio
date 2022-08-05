@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&family=PT+Serif:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&family=PT+Serif:ital@1&family=Roboto+Mono:ital,wght@1,200&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.sidebar{
+ background: rgb(201, 184, 184);
+
+height: 100vh;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /*background: yellow;*/
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+   /* background: rgb(255, 0, 149);*/
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column ;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.hello{
+font-size: 65px;
+
+}
+.name{
+    font-size: 50px;
+    font-family: 'PT Serif', serif;
+font-family: 'Roboto Mono', monospace;
+}
+.about{
+    font-size:40px ;
+}
+.moreabout{
+    font-size:22px ;
+    margin-top:22px ;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto Mono', monospace;
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+   
+}
+.btn-sm{
+    font-size: 17px;
+    padding: 10px 19px;
+    margin: 12px 0;
+}
+
+.btn :hover{
+    background: white;
+    color: dodgerblue;
+}
+
+.devPic img{
+    height: 58vh;
+}
+
+.contactform{
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'Roboto Mono', monospace;
+
+}
+.contactform h1{
+    font-family: 'PT Serif', serif;
+padding:12px 0 ;
+}
+.contactform form div{
+padding: 10px 0;
+display: flex;
+flex-direction: column;
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+    }
+#emailHelp{
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+.blogItem{
+    padding: 0;
+    margin: 0;
+}
+
+.blogItem{
+    margin: 20px;
+    font-family: 'PT Serif', serif;
+}
+
+
+ h1{
+    font-family: 'PT Serif', serif;
+    margin: 23px;
+}
+p{
+    font-family: 'Roboto Mono', monospace;
+}
+intro h2{
+    font-family: 'Roboto Mono', monospace;
+    margin: 12px ;
+}
+intro p{
+    font-family: 'PT Serif', serif;
+    margin: 12px;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: 'PT Serif', serif;
+    font-weight: 900;
+}
+.skill{
+    width: 265px;
+     height: 6px;
+     background-color: red;
+     border: 2px solid black;
+}
+.hundered{
+width: 265px;
+background-color: blueviolet;
+}
+.fifty{
+    width: 125px;
+    background-color: aqua ;
+}
+.t5{
+    width: 75px;
+    background-color: yellow;
+}
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 154px;
+}
+@media (max-width:815px) {
+   * {
+background-color: rgb(232, 147, 147);
+    }
+   
+}
